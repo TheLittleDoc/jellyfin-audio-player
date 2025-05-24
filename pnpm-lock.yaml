@@ -88,6 +88,9 @@ importers:
       react-native-accessibility-settings:
         specifier: ^0.1.2
         version: 0.1.2(react-native@0.79.2(@babel/core@7.27.1)(@react-native-community/cli@18.0.0(typescript@5.8.3))(@types/react@18.3.20)(react@19.0.0))(react@19.0.0)
+      react-native-carplay:
+        specifier: 2.4.1-beta.0
+        version: 2.4.1-beta.0(react-native@0.79.2(@babel/core@7.27.1)(@react-native-community/cli@18.0.0(typescript@5.8.3))(@types/react@18.3.20)(react@19.0.0))(react@19.0.0)
       react-native-collapsible:
         specifier: ^1.6.2
         version: 1.6.2(react-native@0.79.2(@babel/core@7.27.1)(@react-native-community/cli@18.0.0(typescript@5.8.3))(@types/react@18.3.20)(react@19.0.0))(react@19.0.0)
@@ -3828,6 +3831,17 @@ packages:
     peerDependencies:
       react: '*'
       react-native: '*'
+
+  react-native-carplay@2.4.1-beta.0:
+    resolution: {integrity: sha512-tYJymLgJi+0516niv4ApGVC+VgENX/uCYqCX81tewSILWnS6KR7M0A9+bHyNk8xoheFyYGruX7onYxU2U8ykPA==}
+    peerDependencies:
+      react: ^17.0.2 || ^18.0.0
+      react-native: ^0.60.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-native:
+        optional: true
 
   react-native-collapsible@1.6.2:
     resolution: {integrity: sha512-MCOBVJWqHNjnDaGkvxX997VONmJeebh6wyJxnHEgg0L1PrlcXU1e/bo6eK+CDVFuMrCafw8Qh4DOv/C4V/+Iew==}
@@ -9363,6 +9377,11 @@ snapshots:
 
   react-native-accessibility-settings@0.1.2(react-native@0.79.2(@babel/core@7.27.1)(@react-native-community/cli@18.0.0(typescript@5.8.3))(@types/react@18.3.20)(react@19.0.0))(react@19.0.0):
     dependencies:
+      react: 19.0.0
+      react-native: 0.79.2(@babel/core@7.27.1)(@react-native-community/cli@18.0.0(typescript@5.8.3))(@types/react@18.3.20)(react@19.0.0)
+
+  react-native-carplay@2.4.1-beta.0(react-native@0.79.2(@babel/core@7.27.1)(@react-native-community/cli@18.0.0(typescript@5.8.3))(@types/react@18.3.20)(react@19.0.0))(react@19.0.0):
+    optionalDependencies:
       react: 19.0.0
       react-native: 0.79.2(@babel/core@7.27.1)(@react-native-community/cli@18.0.0(typescript@5.8.3))(@types/react@18.3.20)(react@19.0.0)
 

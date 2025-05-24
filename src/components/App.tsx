@@ -12,6 +12,7 @@ import {
 import { ColorSchemeProvider, themes, useUserOrSystemScheme } from './Colors';
 import DownloadManager from './DownloadManager';
 import AppLoading from './AppLoading';
+import CarPlayScreen from '@/screens/carplay';
 
 const LightTheme = {
     ...DefaultTheme,
@@ -84,6 +85,7 @@ export default function App(): JSX.Element | null {
                     <ThemedNavigationContainer>
                         <Routes />
                         <DownloadManager />
+                        <CarPlayScreen />
                     </ThemedNavigationContainer>
                 </ColorSchemeProvider>
             </PersistGate>
